@@ -27,6 +27,12 @@ char inString[INLENGTH + 1]; //Needed for input with termination
 int inCount;                //Needed for input with termination
 boolean received;
 
+SoftI2cMaster i2c(SDA_PIN, SCL_PIN);
+MLX90615 mlx90615(DEVICE_ADDR, &i2c);
+
+int itemp;
+char btemp;
+
 Servo pan_servo;
 Servo tilt_servo;
 int pan_angle;
@@ -74,8 +80,11 @@ void loop() {
   if (received = true) {
     pan_servo.write(pan_angle);
     tilt_servo.write(tilt_angle);
-    Serial.println(mlx90615.getTemperature(MLX90615_OBJECT_TEMPERATURE));
-    received=false;
+    itemp = mlx90615.getTemperature(MLX90615_OBJECT_TEMPERATURE);
+    btemp = char(itemp);
+    Serial.write(btemp);
+    //Serial.println(mlx90615.getTemperature(MLX90615_OBJECT_TEMPERATURE));
+    received = false;
   }
 }
 
