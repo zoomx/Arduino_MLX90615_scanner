@@ -7,3 +7,12 @@ C:\Users\maugeri\documents\visual studio 2010\Projects\PanTiltScanner\PanTiltSca
 C:\Users\maugeri\documents\visual studio 2010\Projects\PanTiltScanner\PanTiltScanner\obj\x86\Debug\PanTiltScanner.exe
 C:\Users\maugeri\documents\visual studio 2010\Projects\PanTiltScanner\PanTiltScanner\obj\x86\Debug\PanTiltScanner.xml
 C:\Users\maugeri\documents\visual studio 2010\Projects\PanTiltScanner\PanTiltScanner\obj\x86\Debug\PanTiltScanner.pdb
+C:\Users\Roberto\Documents\Visual Studio 2010\Projects\PanTiltScanner\PanTiltScanner\obj\x86\Debug\PanTiltScanner.exe
+C:\Users\Roberto\Documents\Visual Studio 2010\Projects\PanTiltScanner\PanTiltScanner\obj\x86\Debug\PanTiltScanner.xml
+C:\Users\Roberto\Documents\Visual Studio 2010\Projects\PanTiltScanner\PanTiltScanner\obj\x86\Debug\PanTiltScanner.pdb
+C:\Users\Roberto\Documents\Visual Studio 2010\Projects\PanTiltScanner\PanTiltScanner\bin\Debug\PanTiltScanner.exe
+C:\Users\Roberto\Documents\Visual Studio 2010\Projects\PanTiltScanner\PanTiltScanner\bin\Debug\PanTiltScanner.pdb
+C:\Users\Roberto\Documents\Visual Studio 2010\Projects\PanTiltScanner\PanTiltScanner\bin\Debug\PanTiltScanner.xml
+C:\Users\Roberto\Documents\Visual Studio 2010\Projects\PanTiltScanner\PanTiltScanner\obj\x86\Debug\PanTiltScanner.fMain.resources
+C:\Users\Roberto\Documents\Visual Studio 2010\Projects\PanTiltScanner\PanTiltScanner\obj\x86\Debug\PanTiltScanner.Resources.resources
+C:\Users\Roberto\Documents\Visual Studio 2010\Projects\PanTiltScanner\PanTiltScanner\obj\x86\Debug\PanTiltScanner.vbproj.GenerateResource.Cache

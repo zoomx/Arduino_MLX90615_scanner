@@ -193,7 +193,7 @@ Public Class fMain
                 'PictureBox1.Image.
                 'DirectCast(PictureBox1.Image, Bitmap).SetPixel(x, y, Color.FromArgb(value, 0, 0))
                 Bitmappa.SetPixel(x, y, Color.FromArgb(value, 0, 0))
-                'ToolStripStatusLabel3.Text = value.ToString
+                ToolStripStatusLabel3.Text = value.ToString
                 PictureBox1.Image = Bitmappa
             Next
         Next
@@ -218,6 +218,11 @@ Public Class fMain
 
         Label1.Text = "Normalizing"
         Start = Now
+        If PixelMax = PixelMin Then
+            Label1.Text = "Pmax=Pmin"
+            Exit Sub
+        End If
+
         m = 255 / (PixelMax - PixelMin)
         q = (-PixelMin * 255) / (PixelMax - PixelMin)
         range = PixelMax - PixelMin
